@@ -15,7 +15,10 @@ class CreateCertificatesTable extends Migration
     {
         Schema::create('certificates', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('owner_id')->constrained('users');
+            $table->string('serial_number');
             $table->timestamps();
+
         });
     }
 

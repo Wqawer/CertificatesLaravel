@@ -14,7 +14,8 @@ class CertificateController extends Controller
      */
     public function index()
     {
-        //
+
+        return Certificate::take(20)->get();
     }
 
     /**

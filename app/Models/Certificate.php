@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Certificate extends Model
 {
     use HasFactory;
+    public function owner(){
+        $this->hasOne('App/Models/User');
+    }
 }
