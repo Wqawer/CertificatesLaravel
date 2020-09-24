@@ -9,6 +9,6 @@ class Certificate extends Model
 {
     use HasFactory;
     public function owner(){
-        $this->hasOne('App/Models/User');
+        return $this->belongsTo(User::class);
     }
 }

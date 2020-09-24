@@ -36,7 +36,7 @@ class CertificateController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate(['serial_number'=>['required']]);
     }
 
     /**
@@ -47,7 +47,7 @@ class CertificateController extends Controller
      */
     public function show(Certificate $certificate)
     {
-        //
+        return $certificate->load('owner');
     }
 
     /**

@@ -18,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/certificates', [CertificateController::class, 'index']) ->name('certificates.index');
+Route::get('/certificates/{certificate}', [CertificateController::class, 'show']) ->name('certificates.show');
+Route::post('/certificates', [CertificateController::class, 'store'])->name('certificates.store');
