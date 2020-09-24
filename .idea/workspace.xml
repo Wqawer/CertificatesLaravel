@@ -23,14 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3c9aa48-f148-4a50-97d3-42efccbedb73" name="Default Changelist" comment="idex controller">
-      <change afterPath="$PROJECT_DIR$/config/jwt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CertificateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CertificateController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Certificate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Certificate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +191,7 @@
       <updated>1600848575978</updated>
       <workItem from="1600848577398" duration="5859000" />
       <workItem from="1600865593991" duration="138000" />
-      <workItem from="1600934819877" duration="6629000" />
+      <workItem from="1600934819877" duration="12427000" />
     </task>
     <task id="LOCAL-00001" summary="basic files Certificates">
       <created>1600852252938</created>
@@ -267,10 +264,18 @@
     <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1600849850547" />
     <state x="60" y="-846" key="SettingsEditor/0.23.1440.811/-555.-1057.2560.1057@-555.-1057.2560.1057" timestamp="1600939770818" />
     <state x="59" y="-1152" key="SettingsEditor/0.23.1440.877/-556.-1440.2560.1440@-556.-1440.2560.1440" timestamp="1600942023932" />
-    <state x="277" y="-1115" width="894" height="812" key="search.everywhere.popup" timestamp="1600945810511">
+    <state x="431" y="-1088" width="586" height="735" key="find.popup" timestamp="1600956908194">
       <screen x="-556" y="-1440" width="2560" height="1440" />
     </state>
-    <state x="277" y="-1115" width="894" height="812" key="search.everywhere.popup/0.0.1440.900/-556.-1440.2560.1440@-556.-1440.2560.1440" timestamp="1600945810511" />
+    <state x="431" y="-1088" width="586" height="735" key="find.popup/0.0.1440.900/-556.-1440.2560.1440@-556.-1440.2560.1440" timestamp="1600956908194" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1600950042539">
+      <screen x="-556" y="-1440" width="2560" height="1440" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1440.900/-556.-1440.2560.1440@-556.-1440.2560.1440" timestamp="1600950042539" />
+    <state x="277" y="-1115" width="894" height="812" key="search.everywhere.popup" timestamp="1600954392554">
+      <screen x="-556" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="277" y="-1115" width="894" height="812" key="search.everywhere.popup/0.0.1440.900/-556.-1440.2560.1440@-556.-1440.2560.1440" timestamp="1600954392554" />
     <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1600854640089" />
   </component>
 </project>
